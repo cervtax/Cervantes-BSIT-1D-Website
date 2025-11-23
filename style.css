@@ -1,0 +1,66 @@
+/* FONT */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Dashed separator */
+.dashed-separator {
+    border: none;
+    border-top: 3px dashed #cbd5e1;
+}
+
+/* Feature module boxes */
+.module-box {
+    height: 2.5rem;
+    background-color: #eef2ff;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4f46e5;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.module-box:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* Metric circles */
+.metric-circle {
+    width: 4rem;
+    height: 4rem;
+    background-color: #1f2937;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: transform 0.3s ease;
+}
+.metric-circle:hover {
+    transform: scale(1.08);
+}
+
+/* Footer */
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    color: #4f46e5;
+}
+
+.footer-links li a {
+    font-size: 0.875rem;
+    color: #374151;
+    transition: color 0.2s ease;
+}
+
+.footer-links li a:hover {
+    color: #4f46e5;
+}

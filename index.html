@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CERV.AI - Intelligence Platform</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-cerv': '#4f46e5',
+                        'secondary-cerv': '#6366f1',
+                        'header-bg': '#e5e7eb',
+                        'footer-bg': '#e5e7eb',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- HEADER -->
+    <header class="w-full bg-header-bg text-gray-800 p-4 shadow-md">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold text-primary-cerv">CERV.AI</div>
+            <nav class="space-x-4 hidden md:flex">
+                <a href="#" class="hover:text-secondary-cerv transition duration-150">Dashboard</a>
+                <a href="#" class="hover:text-secondary-cerv transition duration-150">Features</a>
+                <a href="#" class="hover:text-secondary-cerv transition duration-150">Pricing</a>
+                <a href="#" class="hover:text-secondary-cerv transition duration-150">Contact</a>
+            </nav>
+            <button class="bg-primary-cerv text-white px-4 py-2 rounded-lg hover:bg-secondary-cerv transition duration-150 shadow-md">Get Started</button>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+            <!-- LEFT COLUMN -->
+            <div class="lg:col-span-2 space-y-8">
+
+                <!-- A. Content Block -->
+                <div class="space-y-3 p-6 bg-white rounded-xl shadow-lg border border-gray-100">
+                    <h2 class="text-3xl font-extrabold text-gray-800">Advanced AI Insight Generation</h2>
+                    <p class="h-4 bg-gray-200 rounded w-full">CERV.AI delivers instant, clear insights from your data.</p>
+                    <p class="h-4 bg-gray-200 rounded w-11/12">Transforms complex information into smart, actionable guidance. </p>
+                    <p class="h-4 bg-gray-200 rounded w-full">Reveals hidden patterns to boost decision accuracy.</p>
+                    <p class="h-4 bg-gray-200 rounded w-5/6">Automates analysis to improve efficiency and performance.</p>
+                    <p class="h-4 bg-gray-200 rounded w-full">Provides real-time intelligence for smarter operations.</p>
+                    <p class="text-gray-600 pt-4">CERV.AI delivers context-aware, real-time data analysis to drive actionable decisions across your organization.</p>
+                </div>
+
+                <!-- B. Feature Modules -->
+                <div class="p-6 bg-white rounded-xl shadow-lg">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Core Feature Modules</h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                        <div class="module-box">Reporting</div>
+                        <div class="module-box">Predictive</div>
+                        <div class="module-box">Automation</div>
+                        <div class="module-box">Modeling</div>
+                        <div class="module-box">Security</div>
+                        <div class="module-box">Integration</div>
+                        <div class="module-box">Scaling</div>
+                        <div class="module-box">Monitoring</div>
+                    </div>
+                </div>
+
+                <!-- C. Metrics Circles -->
+                <div class="p-6 bg-white rounded-xl shadow-lg flex justify-between items-center">
+                    <div class="flex flex-1 justify-around space-x-4">
+                        <div class="metric-circle">99.9%</div>
+                        <div class="metric-circle">75M+</div>
+                        <div class="metric-circle">3.2s acc.</div>
+                        <div class="metric-circle">100%</div>
+                        <div class="metric-circle">100%</div>
+                        <div class="metric-circle">100%</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="lg:col-span-1">
+                <div class="bg-gray-300 w-full aspect-square rounded-xl shadow-xl overflow-hidden relative">
+                <img 
+                 src="images/Gemini_Generated_Image_a7csjha7csjha7cs.png" 
+                 alt="Dashboard Preview" 
+                  class="absolute inset-0 w-full h-full object-cover">
+           <div class="absolute bottom-3 left-1/2 -translate-x-1/2 bg-black/40 text-white px-3 py-1 rounded-md text-xs font-semibold">
+        
+         </div>
+         </div>
+         </div>
+
+        </section>
+
+        <!-- SEPARATOR -->
+        <hr class="dashed-separator my-16">
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="w-full bg-footer-bg text-gray-700 p-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+            <div>
+                <h4 class="footer-title">Product</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Platform</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">Roadmap</a></li>
+                    <li><a href="#">API Access</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">About CERV.AI</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Partners</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Support Center</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-title">Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Settings</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-gray-300 text-center text-sm">
+            &copy; 2025 CERV.AI. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
