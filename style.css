@@ -1,16 +1,13 @@
-/* FONT */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f7f7f7;
 }
 
-/* Dashed separator */
 .dashed-separator {
     border: none;
     border-top: 3px dashed #cbd5e1;
 }
 
-/* Feature module boxes */
 .module-box {
     height: 2.5rem;
     background-color: #eef2ff;
@@ -29,7 +26,6 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-/* Metric circles */
 .metric-circle {
     width: 4rem;
     height: 4rem;
@@ -48,7 +44,6 @@ body {
     transform: scale(1.08);
 }
 
-/* Footer */
 .footer-title {
     font-weight: bold;
     margin-bottom: 0.75rem;
@@ -64,3 +59,4 @@ body {
 .footer-links li a:hover {
     color: #4f46e5;
 }
+
